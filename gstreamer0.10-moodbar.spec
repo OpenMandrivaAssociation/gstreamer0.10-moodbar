@@ -4,7 +4,7 @@
 Summary:	Moodbar plugin for gstreamer
 Name:		gstreamer%{gst_major_ver}-moodbar
 Version:	0.1.2
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPL v2
 Group:		System/Libraries
 Source:		moodbar-%{version}.tar.bz2
@@ -14,6 +14,7 @@ BuildRequires:	libgstreamer-devel >= %{gst_major_ver}
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 Requires:	gstreamer%{gst_major_ver}-plugins-base >= %{gst_major_ver}
 Requires:	gstreamer%{gst_major_ver}-plugins-good >= %{gst_major_ver}
+Provides:	moodbar = %{version}-%{release}
 
 %description
 The Moodbar is an algorithm for creating a colorful visual
