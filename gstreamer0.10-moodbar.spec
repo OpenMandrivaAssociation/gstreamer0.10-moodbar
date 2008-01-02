@@ -11,6 +11,7 @@ Source:		moodbar-%{version}.tar.bz2
 URL:		http://amarok.kde.org/wiki/Moodbar
 BuildRequires:	fftw3-devel
 BuildRequires:	libgstreamer-devel >= %{gst_major_ver}
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 Requires:	gstreamer%{gst_major_ver}-plugins-base >= %{gst_major_ver}
 Requires:	gstreamer%{gst_major_ver}-plugins-good >= %{gst_major_ver}
 Provides:	moodbar = %{version}-%{release}
