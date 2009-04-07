@@ -31,14 +31,13 @@ analysis.
 %setup -q -n moodbar-%{version}
 
 %build
-%configure \
+%configure2_5x \
 	--disable-static
 %make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
-%make install DESTDIR=$RPM_BUILD_ROOT
+%makeinstall_std
 
 rm -f $RPM_BUILD_ROOT%{gstlibdir}/libmoodbar.la
 
