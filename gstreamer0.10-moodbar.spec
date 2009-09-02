@@ -4,7 +4,7 @@
 Summary:	Moodbar plugin for gstreamer
 Name:		gstreamer%{gst_major_ver}-moodbar
 Version:	0.1.2
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPL v2
 Group:		System/Libraries
 Source:		moodbar-%{version}.tar.bz2
