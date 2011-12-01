@@ -36,13 +36,13 @@ analysis.
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std
 
-rm -f $RPM_BUILD_ROOT%{gstlibdir}/libmoodbar.la
+rm -f %{buildroot}%{gstlibdir}/libmoodbar.la
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(644,root,root,755)
