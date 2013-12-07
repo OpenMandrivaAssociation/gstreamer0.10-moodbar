@@ -4,7 +4,7 @@
 Summary:	Moodbar plugin for gstreamer
 Name:		gstreamer%{api}-moodbar
 Version:	0.1.2
-Release:	11
+Release:	12
 License:	GPLv2
 Group:		System/Libraries
 Url:		http://amarok.kde.org/wiki/Moodbar
