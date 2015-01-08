@@ -31,9 +31,8 @@ analysis.
 %setup -qn moodbar-%{version}
 
 %build
-%configure2_5x \
-	--disable-static
-%make
+%configure
+%make LIBS='-lm'
 
 %install
 %makeinstall_std
