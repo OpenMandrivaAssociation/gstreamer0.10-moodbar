@@ -7,7 +7,7 @@ Version:	0.1.2
 Release:	20
 License:	GPLv2
 Group:		System/Libraries
-Url:		http://amarok.kde.org/wiki/Moodbar
+Url:		https://amarok.kde.org/wiki/Moodbar
 Source0:	moodbar-%{version}.tar.bz2
 
 BuildRequires:	pkgconfig(fftw3)
