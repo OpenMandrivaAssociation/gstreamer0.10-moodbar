@@ -10,6 +10,11 @@ Group:		System/Libraries
 Url:		https://amarok.kde.org/wiki/Moodbar
 Source0:	moodbar-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(fftw3)
 BuildRequires:	pkgconfig(gstreamer-%{api})
 Requires:	gstreamer%{api}-plugins-base
